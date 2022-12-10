@@ -1,0 +1,29 @@
+<section class="py-0 mt-5">
+    <h1 class="text-center h1 text-black negrita p-4">ESCENARIOS DEPORTIVOS</h1>
+    <div class="container-fluid px-1 px-lg-5 mt-0">
+        <div class="row gx-5 gx-lg-12 row-cols-2 row-cols-md-3 row-cols-lg-12 row-cols-xl-12 justify-content-center">
+
+
+            <div *ngFor="let item of listaEscenarios" class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <div class="card h-200 pointer"
+                        [routerLink]="['/dashboard/reservacion/horarios',  {esc_nombre:item.esc_nombre}]">
+                        <img class="img-responsive card-img-top" width="100" height="180"
+                            [src]="'data:image/jpeg;base64,'+item.esc_foto" alt="..." />
+                    </div>
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <p class="h4">{{item.esc_nombre}}</p>
+                            <p class="font-italic" matTooltip={{item.esc_descripcion}}>Ver descripcion</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>

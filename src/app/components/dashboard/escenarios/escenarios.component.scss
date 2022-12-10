@@ -1,0 +1,61 @@
+table {
+    width: 100%;
+    margin-top: 5px;
+}
+
+th{
+    width: 20%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+.btnGestCategoria{
+    background-color: rgb(15, 32, 65);
+    color: #fff;
+}
+.btnGestEscenario{
+    background-color: rgb(15, 32, 65);
+    color: #fff;
+}
+
+.ancho-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btnAgregar{
+    background-color: rgb(15, 32, 65);
+    color: #fff;
+  }
+  .btnEditar{
+    background-color: rgb(15, 32, 65);
+    color: #fff;
+  }
+  .btnEliminar{
+    background: rgb(175, 0, 0);
+    color: #fff;
+  }
+  .btnVolver{
+    background: rgb(175, 0, 0);
+    color: #fff;
+  }
+  .btnElimminarFoto{
+    background: rgb(175, 0, 0);
+    color: #fff;
+  }
+  .text{
+    background-color: rgb(15, 32, 65);
+    color: #fff;
+  }
+  
+

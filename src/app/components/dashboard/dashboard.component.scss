@@ -1,0 +1,30 @@
+::ng-deep .mat-tooltip {
+    font-size: 15px;
+    white-space: pre-wrap;
+    color: black !important;
+    background-color: rgba(255, 255, 255, .9);
+    border:1px solid gray;
+    max-width: 500px !important;
+    font-weight: bold;
+    text-align: justify;
+   }
+
+
+   .green-snackbar {
+    background: rgb(65, 252, 134);
+    color: white;
+}
+.green-snackbar button {
+    background-color: rgb(65, 252, 134);
+    color: white;
+    border: none;
+}
+.red-snackbar {
+    background: #F44336;
+    color: white;
+}
+.red-snackbar button {
+    background-color: #F44336;
+    color: white !important;
+    border: none;
+}
